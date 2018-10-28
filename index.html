@@ -17,33 +17,33 @@
       <div class="container">
         <div class="side-bar">
           <h1 class="menu-title">Mechanisms</h1>
-          <ul>
-            <li id="pow" class="PoW">Proof of Work</li>
-            <li id="hashcashPow" class="PoW">Hashcash (PoW)</li>
-            <li id="cuckooPow" class="PoW">Cuckoo Cycle (PoW)</li>
-            <li id="pos" class="PoS">Proof of Stake</li>
-            <li id="tendermintPos" class="PoS">Tendermint (PoS)</li>
-            <li id="casperCffgPos" class="PoS">Casper (CFFG) (PoS)</li>
-            <li id="casperCtfgPos" class="PoS">Casper (CTFG) (PoS)</li>
-            <li id="ourborosPos" class="PoS">Ouroboros (PoS)</li>
-            <li id="dpos" class="DPoS">Delegated Proof of Stake</li>
-            <li id="tapos" class="TaPoS">Transactions as Proof of Stake</li>
-            <li id="poa" class="PoA">Proof of Authority</li>
-            <li id="thresholdRelay" class="threshold-relay">Threshold Relay (Dfinity)</li>
-            <li id="proofOfWeight" class="proof-of-weight">Proof of Weight</li>
-            <li id="post" class="PoST">Proof of Space-time</li>
-            <li id="tangle" class="tangle">Tangle</li>
-            <li id="hashgraph" class="dag">Hashgraph</li>
-            <li id="spectre" class="dag">SPECTRE</li>
-            <li id="poacticity" class="activity">Proof of Activity</li>
-            <li id="pob" class="burn">Proof of Burn</li>
-            <li id="poc" class="capacity">Proof of Capacity</li>
-            <li id="poet" class="elapsed-time">Proof of Elapsed Time</li>
-            <li id="grandpa" class="grandpa">GRANDPA</li>
+          <ul id="list-of-options">
+            <li onClick="showDoc(this.id)" id="pow" class="PoW">Proof of Work</li>
+            <li onClick="showDoc(this.id)" id="hashcashPow" class="PoW">Hashcash (PoW)</li>
+            <li onClick="showDoc(this.id)" id="cuckooPow" class="PoW">Cuckoo Cycle (PoW)</li>
+            <li onClick="showDoc(this.id)" id="pos" class="PoS">Proof of Stake</li>
+            <li onClick="showDoc(this.id)" id="tendermintPos" class="PoS">Tendermint (PoS)</li>
+            <li onClick="showDoc(this.id)" id="casperCffgPos" class="PoS">Casper (CFFG) (PoS)</li>
+            <li onClick="showDoc(this.id)" id="casperCtfgPos" class="PoS">Casper (CTFG) (PoS)</li>
+            <li onClick="showDoc(this.id)" id="ourborosPos" class="PoS">Ouroboros (PoS)</li>
+            <li onClick="showDoc(this.id)" id="dpos" class="DPoS">Delegated Proof of Stake</li>
+            <li onClick="showDoc(this.id)" id="tapos" class="TaPoS">Transactions as Proof of Stake</li>
+            <li onClick="showDoc(this.id)" id="poa" class="PoA">Proof of Authority</li>
+            <li onClick="showDoc(this.id)" id="thresholdRelay" class="threshold-relay">Threshold Relay (Dfinity)</li>
+            <li onClick="showDoc(this.id)" id="proofOfWeight" class="proof-of-weight">Proof of Weight</li>
+            <li onClick="showDoc(this.id)" id="post" class="PoST">Proof of Space-time</li>
+            <li onClick="showDoc(this.id)" id="tangle" class="tangle">Tangle</li>
+            <li onClick="showDoc(this.id)" id="hashgraph" class="dag">Hashgraph</li>
+            <li onClick="showDoc(this.id)" id="spectre" class="dag">SPECTRE</li>
+            <li onClick="showDoc(this.id)" id="poacticity" class="activity">Proof of Activity</li>
+            <li onClick="showDoc(this.id)" id="pob" class="burn">Proof of Burn</li>
+            <li onClick="showDoc(this.id)" id="poc" class="capacity">Proof of Capacity</li>
+            <li onClick="showDoc(this.id)" id="poet" class="elapsed-time">Proof of Elapsed Time</li>
+            <li onClick="showDoc(this.id)" id="grandpa" class="grandpa">GRANDPA</li>
           </ul>
         </div>
         <div class="google-doc">
-          <iframe src="https://docs.google.com/document/d/1tlSa0uJrTryrkNUFwuzkXaSTvaSKLW4oTjFfp0Aibbo/edit" frameborder="0"></iframe>
+          <iframe id="google-doc-iframe" src="https://docs.google.com/document/d/1rfhE87mMQhqJzjlb5ndkDBR2KmiROt-EhnNkzxI0LxM/edit" frameborder="0"></iframe>
         </div>
       </div>
     </div>

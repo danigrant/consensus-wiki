@@ -22,3 +22,16 @@ let consensusToDocMapping = {
   poet: "https://docs.google.com/document/d/1D9yzT_hQLgwczFKyHEK_WsZ_SnkWzr0-T9KW-z6FskM/edit",
   grandpa: "https://docs.google.com/document/d/1o71LTkdNMFP9jVb5l76Vawl5bLYM0trKidtWpnGbMEc/edit"
 }
+
+
+// event listener on side-bar class
+// when pressed, get the id of the element clicked
+// get consensusToDocMapping[whatever that id is]
+// and swap the src of the iframe with it.
+
+let showDoc = (doc) => {
+  console.log(doc)
+  console.log(consensusToDocMapping[doc])
+  let docUrl = consensusToDocMapping[doc]
+  document.getElementById('google-doc-iframe').src = docUrl;
+}
