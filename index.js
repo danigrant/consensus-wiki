@@ -1,7 +1,7 @@
 let consensusToDocMapping = {
   pow: "https://docs.google.com/document/d/1rfhE87mMQhqJzjlb5ndkDBR2KmiROt-EhnNkzxI0LxM/edit",
   hashcashPow: "https://docs.google.com/document/d/1aDuzeN_4IxUdT9a16aGi2Q4aldrs_zX6kaaKqmmSQtA/edit",
-  cuckoo: "https://docs.google.com/document/d/1wtfADXiX0A9UtDcTho1puFgtvndkmlil3_pagiM7q_g/edit",
+  cuckooPow: "https://docs.google.com/document/d/1wtfADXiX0A9UtDcTho1puFgtvndkmlil3_pagiM7q_g/edit",
   pos: "https://docs.google.com/document/d/1cyJzeaLv0NW2gcE2pmOR3ngWrTVgBc0cr3H3T-_Ziwc/edit",
   tendermintPos: "https://docs.google.com/document/d/1Vi-IQM6qk24O2uTTUXWCAgcEDd34YC5jABoNasI6usw/edit",
   casperCffgPos: "https://docs.google.com/document/d/1EbFu3HyVy4K_uuhpHd8uQx7BzwzYqgNQwKMuchCUjU0/edit",

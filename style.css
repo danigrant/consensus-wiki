@@ -101,3 +101,63 @@ body {
   width: 100%;
   height: 700px;
 }
+
+#list-of-options .pow {
+  background: rgb(228, 236, 234);
+}
+
+#list-of-options .pos {
+  background: rgb(227, 234, 240);
+}
+
+#list-of-options .dpos {
+  background: rgb(232, 228, 241);
+}
+
+#list-of-options .tapos {
+  background: rgb(232, 228, 241);
+}
+
+#list-of-options .poa {
+  background: rgb(236, 225, 234);
+}
+
+#list-of-options .threshold-relay {
+  background: rgb(243, 230, 229);
+}
+
+#list-of-options .proof-of-weight {
+  background: rgb(231, 229, 227);
+}
+
+#list-of-options .post {
+  background: rgb(244, 226, 223);
+}
+
+#list-of-options .tangle {
+  background: rgb(248, 244, 221);
+}
+
+#list-of-options .dag {
+
+}
+
+#list-of-options .activity {
+
+}
+
+#list-of-options .burn {
+
+}
+
+#list-of-options .capacity {
+
+}
+
+#list-of-options .elapsed-time {
+
+}
+
+#list-of-options .grandpa {
+
+}
