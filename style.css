@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 30px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+  transition: box-shadow 400ms ease;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5em;
+
+}
+
+.header .logo {
+  margin-left: 10px;
+}
+
+.header .logo img {
+  height: 35px;
+  width: 35px;
+}
+
+.header .logo, .header .logo-words {
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.header .title {
+  font-family: 'Sigmar One', cursive;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+.header .logo-words .subtitle {
+  display: block;
+  margin-top: -10px;
+  color: #cecece;
+  font-size: 0.7em;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.side-bar {
+  width: 35%;
+}
+
+.menu-title {
+  margin-top: 30px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.side-bar ul {
+  list-style-type: none;
+  padding-left: inherit;
+
+}
+
+.side-bar ul li {
+  background: #eee;
+  width: 200px;
+  padding: 1em;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.8em;
+}
+
+.side-bar ul li:hover {
+  background: #ccc;
+}
+
+.side-bar ul li:active {
+  background: #aaa;
+}
+
+.side-bar, .google-doc {
+  display: inline-block;
+}
+
+.google-doc {
+  width: 60%;
+}
+
+.google-doc iframe {
+  width: 100%;
+  height: 600px;
+}
