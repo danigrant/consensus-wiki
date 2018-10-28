@@ -161,3 +161,12 @@ body {
 #list-of-options .grandpa {
 
 }
+
+.darken:hover,
+.darken:focus {
+  box-shadow: inset 9999px 9999px rgba(0,0,0,0.10)
+}
+
+.darken:active {
+  box-shadow: inset 9999px 9999px rgba(0,0,0,0.20)
+}
